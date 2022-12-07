@@ -1,4 +1,4 @@
-#!/env/python3
+#!/usr/bin/env python3
 
 class Section(object):
     def __init__(self,elf,id):
@@ -63,7 +63,7 @@ work_area_count = 0
 work_area_duplicates = 0
 work_area_overlap = 0
 
-with open("/Users/mac/AdventOfCode/2022/day4/input.txt") as file:
+with open("input.txt") as file:
     for line in file:
         work_area_list.append(WorkArea(line))
         work_area_count = work_area_count + 1

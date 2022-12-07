@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 import string
 class Stack(object):
     def __init__(self,id):

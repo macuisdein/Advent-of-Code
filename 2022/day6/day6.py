@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 # I don't feel like doing OO today
 file = open("input.txt")
 message = file.read()

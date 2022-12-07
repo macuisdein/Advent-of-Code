@@ -1,4 +1,4 @@
-#!/env/python3
+#!/usr/bin/env python3
 
 class Elf(object):
 
@@ -20,7 +20,7 @@ elflist = []
 max_elf_calories = 0
 max_elf_id = 0
 
-with open("/Users/mac/AdventOfCode/2022/day1/input.txt") as file:
+with open("nput.txt") as file:
     elflist.append(Elf(elfcounter))
     for line in file:
         if line == '\n':

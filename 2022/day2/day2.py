@@ -1,4 +1,4 @@
-#!/env/python3
+#!/usr/bin/env python3
 
 class Strategy(object):
     def __init__(self,line):
@@ -70,7 +70,7 @@ class Round(object):
 round_counter = 0
 round_list = []
 score_accumulator = 0
-with open("/Users/mac/AdventOfCode/2022/day2/input.txt") as file:
+with open("input.txt") as file:
     for line in file:
         print(f"Round {round_counter} line is {line.strip()}")
         round_list.append(Round(line))

@@ -1,4 +1,4 @@
-#!/env/python3
+#!/usr/bin/env python3
 
 class Rucksack(object):
     def __init__(self):
@@ -42,7 +42,7 @@ class Items(object):
 rucksack_count = 0
 rucksack_list = []  
 common_item_sum = 0      
-with open("/Users/mac/AdventOfCode/2022/day3/input.txt") as file:
+with open("input.txt") as file:
     for line in file:
         rucksack_list.append(Rucksack())
         rucksack_list[rucksack_count].fill_ruck(line.strip())
