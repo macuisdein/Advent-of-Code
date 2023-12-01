@@ -20,6 +20,9 @@ for x in range(0,numLines):
 print(f"Part 1 sum is {sum}")
 
 # Part 2
+# This one was unclear on the instructions about re-use. nineight is 98. 
+# I first went down a string.replace() method, but it replaced out of sequence. So I went for a brute force
+# And then, once I figured out about the overlap, I just modified the brute force. So not pretty, but it works.
 
 part2sum = 0
 
