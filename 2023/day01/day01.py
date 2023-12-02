@@ -3,7 +3,7 @@
 sum = 0
 digits = []
 
-input = open("input2.txt", "r")
+input = open("input.txt", "r")
 lines = input.readlines()
 
 numLines = len(lines)
