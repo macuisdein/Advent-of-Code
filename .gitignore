@@ -1,0 +1,5 @@
+# ignore all sample and input files
+*.txt
+
+# ignore any mac garbage
+.DS_Store
