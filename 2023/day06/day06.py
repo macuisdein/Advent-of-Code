@@ -1,5 +1,5 @@
 import math
-file = open("input2.txt", "r")
+file = open("input.txt", "r")
 lines = file.readlines()
 print(f"Length of input is {len(lines)}")
 

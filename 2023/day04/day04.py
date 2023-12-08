@@ -1,4 +1,4 @@
-file = open("input.py", "r")
+file = open("input.txt", "r")
 lines = file.readlines()
 
 length = len(lines)
